@@ -31,10 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Penis"
             ],
             answer: 1,
-            explanation: "According to Cambridge IGCSE Biology, sperm are produced in the testes, which are located in the scrotum."
+            explanation: "Sini dek gw jelasin so sperm are produced in the testes, which are located in the scrotum."
         },
         {
-            question: "What is the function of the scrotum?",
+            question: "What is the function of the scrotum?" ,
             options: [
                 "To store urine",
                 "To keep the testes cooler than body temperature",
@@ -42,10 +42,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 "To carry sperm to the penis"
             ],
             answer: 1,
-            explanation: "The scrotum maintains the testes at a temperature 2-3°C below body temperature, which is essential for sperm production."
+            explanation: " Dasar pemula let me explain so the scrotum maintains the testes at a temperature 2-3°C below body temperature, which is essential for sperm production."
         },
         {
-            question: "Which hormone triggers ovulation in the menstrual cycle?",
+            question: "Which hormone triggers ovulation in the menstrual cycle?( Belajar kalo ga tau )",
             options: [
                 "FSH",
                 "LH",
@@ -53,10 +53,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Progesterone"
             ],
             answer: 1,
-            explanation: "Luteinizing hormone (LH) causes the mature egg to be released from the ovary during ovulation (day 14 of the cycle)."
+            explanation: " Too difficult kah ? so Luteinizing hormone (LH) causes the mature egg to be released from the ovary during ovulation (day 14 of the cycle)."
         },
         {
-            question: "Where does fertilization typically occur in the female reproductive system?",
+            question: "Where does fertilization typically occur in the female reproductive system? ( Aduhh anak lower juga bisa ini )",
             options: [
                 "Ovary",
                 "Uterus",
@@ -64,10 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Vagina"
             ],
             answer: 2,
-            explanation: "Fertilization occurs in the oviduct (fallopian tube) where sperm meets the egg, as stated in the IGCSE syllabus."
+            explanation: " Masih salah? nih gw jelasin : Fertilization occurs in the oviduct (fallopian tube) where sperm meets the egg"
         },
         {
-            question: "What is the function of the placenta during pregnancy?",
+            question: "What is the function of the placenta during pregnancy? ( ga bisa balik mts sana )",
             options: [
                 "To produce hormones only",
                 "To allow exchange of materials between mother and fetus",
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "To provide oxygen to the mother"
             ],
             answer: 1,
-            explanation: "The placenta allows oxygen, nutrients, and waste products to be exchanged between mother and fetus without their blood mixing."
+            explanation: "Ez gini masa ga bisa jadi gini :the placenta allows oxygen, nutrients, and waste products to be exchanged between mother and fetus without their blood mixing."
         }
     ];
     
@@ -177,11 +177,11 @@ document.addEventListener('DOMContentLoaded', function() {
         let feedback = '';
         
         if (percentage >= 80) {
-            feedback = "Anjayy That great ";
+            feedback = "The question is too easy for you? Wait for new update yaa! -";
         } else if (percentage >= 60) {
-            feedback = "Hadehh keep study and ask to ust tharik if you not understand.";
+            feedback = "Semangat dikit lagi bener";
         } else {
-            feedback = "Noob gitu aja ga bisa balik Mts sana dek.";
+            feedback = "Aduhh dekk makannya biology perhatiin!!!.";
         }
         
         resultFeedback.innerHTML = `
